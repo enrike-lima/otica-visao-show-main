@@ -1,0 +1,58 @@
+header{
+    background-color: rgb(242, 242, 242);
+    height: 100%;
+    padding: 10px 15px;
+    width: 100%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+   
+}
+ ul{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 5px;
+    margin: 0 5px;
+  }
+
+.logo{
+    width: 150px;
+    padding: 5px;
+}
+
+@media (max-width: 550px){
+    header nav{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+           
+
+       }
+       header > nav > ul{
+            border-top:1px solid gray ;
+            text-align: center;
+            margin: 20px;
+            padding: 10px; 
+        }
+        header > nav > .logo{
+            margin: 10px;
+        }
+ 
+}
